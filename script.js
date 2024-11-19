@@ -75,11 +75,11 @@ function Ship(name) {
 
 // Console obj
 var output = {
-  welcome: " > Welcome to BattleShip.  Use the menu above to get started.",
+  welcome: " > Welcome to BattleShip!  Use the menu above to get started.",
   not: " > This option is not currently available.",
   player1:
-    " > Would you like to place your own ships or have the computer randomly do it for you?",
-  self: " > Use the mouse and the Horizontal and Vertial buttons to place your ships on the bottom grid.",
+    " > Would you like to place your own ships or have them randomly placed you?",
+  self: " > Use the mouse and the Horizontal and Vertical buttons to place your ships on the bottom grid.",
   overlap: " > You can not overlap ships.  Please try again.",
   start: " > Use the mouse to fire on the top grid.  Good Luck!",
   placed: function (name) {
@@ -95,7 +95,7 @@ var output = {
     return " > " + user + "'s " + type + " was sunk!";
   },
   lost: function (name) {
-    return " > " + name + " has lost his fleet!!  Game Over.";
+    return " > " + name + " has lost their fleet!!  Game Over.";
   },
 };
 
